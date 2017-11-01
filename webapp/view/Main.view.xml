@@ -1,0 +1,22 @@
+<mvc:View controllerName="BabelDemo.controller.Main" xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<l:HorizontalLayout class="sapUiSmallMargin" >
+					<List items="{/numbers}">
+						<DisplayListItem label="Number" value="{number}"/>
+					</List>
+					<List items="{/evenNumbers}">
+						<DisplayListItem label="Even Number" value="{number}"/>
+					</List>
+					<List items="{/oddNumbers}">
+						<DisplayListItem label="Odd Number" value="{number}"/>
+					</List>
+					</l:HorizontalLayout>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

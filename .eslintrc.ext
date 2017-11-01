@@ -1,0 +1,944 @@
+{
+	"rulesExt": {
+		"array-callback-return": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"arrow-body-style": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"arrow-parens": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"arrow-spacing": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"block-spacing": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"callback-return": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"class-methods-use-this": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"func-call-spacing": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"func-name-matching": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"global-require": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"id-blacklist": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"id-length": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"id-match": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"init-declarations": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"jsx-quotes": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"keyword-spacing": {
+			"severity": "info",
+			"category": "Possible Error"
+		},
+		"line-comment-position": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"lines-around-directive": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"max-lines": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"max-statements-per-line": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"multiline-ternary": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"newline-before-return": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"newline-per-chained-call": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-case-declarations": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-class-assign": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-confusing-arrow": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-const-assign": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-dupe-class-members": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-duplicate-imports": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-empty-function": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-empty-pattern": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-extra-label": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-global-assign": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-implicit-coercion": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-implicit-globals": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-invalid-this": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-magic-numbers": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-mixed-operators": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-negated-condition": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-new-symbol": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-prototype-builtins": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-restricted-globals": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-restricted-imports": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-restricted-properties": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-restricted-syntax": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-return-await": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-self-assign": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-tabs": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-template-curly-in-string": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-unmodified-loop-condition": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-unsafe-finally": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-unsafe-negation": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-unused-labels": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-useless-call": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-useless-computed-key": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-useless-concat": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-useless-constructor": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-useless-escape": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-useless-rename": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-useless-return": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-whitespace-before-property": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"object-curly-newline": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"object-property-newline": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"one-var-declaration-per-line": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"prefer-arrow-callback": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"prefer-numeric-literals": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"prefer-reflect": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"prefer-rest-params": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"prefer-spread": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"prefer-template": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"require-jsdoc": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"require-yield": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"rest-spread-spacing": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"sort-imports": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"sort-keys": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"symbol-description": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"template-curly-spacing": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"unicode-bom": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"yield-star-spacing": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"constructor-super": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-this-before-super": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-unexpected-multiline": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"block-scoped-var": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"brace-style": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"camelcase": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"complexity": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"consistent-return": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"consistent-this": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"curly": {
+			"severity": "error",
+			"category": "Best Practice"
+		},
+		"default-case": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"dot-notation": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"eqeqeq": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"func-names": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"func-style": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"guard-for-in": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"handle-callback-err": {
+			"severity": "warning",
+			"category": "Node.js"
+		},
+		"max-depth": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"max-len": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"max-nested-callbacks": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"max-params": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"max-statements": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"new-cap": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"new-parens": {
+			"severity": "error",
+			"category": "Stylistic Issue"
+		},
+		"no-alert": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-array-constructor": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-bitwise": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-caller": {
+			"severity": "error",
+			"category": "Best Practice"
+		},
+		"no-catch-shadow": {
+			"severity": "warning",
+			"category": "Variable"
+		},
+		"no-cond-assign": {
+			"severity": "warning",
+			"category": "Possible Error"
+		},
+		"no-console": {
+			"severity": "warning",
+			"category": "Possible Error"
+		},
+		"no-constant-condition": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-control-regex": {
+			"severity": "warning",
+			"category": "Possible Error"
+		},
+		"no-debugger": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-delete-var": {
+			"severity": "warning",
+			"category": "Variable"
+		},
+		"no-div-regex": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-dupe-keys": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-else-return": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-empty": {
+			"severity": "error",
+			"category": "Best Practice"
+		},
+		"no-eq-null": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-eval": {
+			"severity": "error",
+			"category": "Best Practice"
+		},
+		"no-ex-assign": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-extend-native": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-extra-boolean-cast": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-extra-parens": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-extra-semi": {
+			"severity": "error",
+			"category": "Best Practice"
+		},
+		"no-fallthrough": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-floating-decimal": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-func-assign": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-implied-eval": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-inner-declarations": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-invalid-regexp": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-irregular-whitespace": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-iterator": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-label-var": {
+			"severity": "warning",
+			"category": "Variable"
+		},
+		"no-labels": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-lone-blocks": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-lonely-if": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-loop-func": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-mixed-requires": {
+			"severity": "warning",
+			"category": "Node.js"
+		},
+		"no-mixed-spaces-and-tabs": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-multi-str": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-multiple-empty-lines": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-native-reassign": {
+			"severity": "error",
+			"category": "Best Practice"
+		},
+		"no-negated-in-lhs": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-nested-ternary": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-new": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-new-func": {
+			"severity": "error",
+			"category": "Best Practice"
+		},
+		"no-new-object": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-new-require": {
+			"severity": "warning",
+			"category": "Node.js"
+		},
+		"no-new-wrappers": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-obj-calls": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-octal": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-octal-escape": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-path-concat": {
+			"severity": "warning",
+			"category": "Node.js"
+		},
+		"no-plusplus": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-process-exit": {
+			"severity": "warning",
+			"category": "Node.js"
+		},
+		"no-proto": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-redeclare": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-regex-spaces": {
+			"severity": "warning",
+			"category": "Possible Error"
+		},
+		"no-restricted-modules": {
+			"severity": "warning",
+			"category": "Node.js"
+		},
+		"no-return-assign": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-script-url": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-self-compare": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-sequences": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-shadow": {
+			"severity": "warning",
+			"category": "Variable"
+		},
+		"no-shadow-restricted-names": {
+			"severity": "warning",
+			"category": "Variable"
+		},
+		"no-spaced-func": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-sparse-arrays": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-sync": {
+			"severity": "warning",
+			"category": "Node.js"
+		},
+		"no-ternary": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-undef": {
+			"severity": "error",
+			"category": "Variable"
+		},
+		"no-undef-init": {
+			"severity": "warning",
+			"category": "Variable"
+		},
+		"no-underscore-dangle": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-unreachable": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-unused-expressions": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-unused-vars": {
+			"severity": "warning",
+			"category": "Variable"
+		},
+		"no-use-before-define": {
+			"severity": "warning",
+			"category": "Variable"
+		},
+		"no-warning-comments": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-with": {
+			"severity": "error",
+			"category": "Best Practice"
+		},
+		"yoda": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"one-var": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"quote-props": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"quotes": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"radix": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"semi": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"sort-vars": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"space-before-blocks": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"space-infix-ops": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"space-unary-ops": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"strict": {
+			"severity": "warning",
+			"category": "Strict Mode"
+		},
+		"use-isnan": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"valid-jsdoc": {
+			"severity": "warning",
+			"category": "Possible Error"
+		},
+		"valid-typeof": {
+			"severity": "warning",
+			"category": "Possible Error"
+		},
+		"wrap-iife": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"wrap-regex": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-dupe-args": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-duplicate-case": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"no-extra-bind": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-inline-comments": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-multi-spaces": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-process-env": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-trailing-spaces": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-throw-literal": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-undefined": {
+			"severity": "error",
+			"category": "Variable"
+		},
+		"no-void": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-var": {
+			"severity": "warning",
+			"category": "ECMAScript 6"
+		},
+		"comma-dangle": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"comma-spacing": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"comma-style": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"eol-last": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"generator-star-spacing": {
+			"severity": "info",
+			"category": "ECMAScript 6"
+		},
+		"indent": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"key-spacing": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"operator-assignment": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"padded-blocks": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"semi-spacing": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"space-in-parens": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"vars-on-top": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"no-continue": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-empty-character-class": {
+			"severity": "error",
+			"category": "Possible Error"
+		},
+		"linebreak-style": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-param-reassign": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"no-unneeded-ternary": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"prefer-const": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"array-bracket-spacing": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"accessor-pairs": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"computed-property-spacing": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"dot-location": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"lines-around-comment": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"newline-after-var": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"object-curly-spacing": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"object-shorthand": {
+			"severity": "warning",
+			"category": "Best Practice"
+		},
+		"operator-linebreak": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"space-before-function-paren": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		},
+		"spaced-comment": {
+			"severity": "info",
+			"category": "Stylistic Issue"
+		}
+	}
+}
